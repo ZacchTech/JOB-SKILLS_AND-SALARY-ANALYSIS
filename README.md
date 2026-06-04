@@ -54,9 +54,9 @@ To support the analysis, I created two separate queries:
 
 ### 📸 Extract Phase
 
-![Data Jobs Salary Query](images/PowerQuery_Extract_Salary.png)
+![Data Jobs Salary Query](./images/data_jobs_skills_Query.png)
 
-![Data Jobs Skills Query](images/PowerQuery_Extract_Skills.png)
+![Salary Query](./images/data_jobs_salary_Query.png) 
 
 ---
 
@@ -78,10 +78,10 @@ These transformations ensured that the data was clean, consistent, and ready for
 
 ### 📸 Transform Phase
 
-![Transform Salary Data](images/PowerQuery_Transform_Salary.png)
-
-![Transform Skills Data](images/PowerQuery_Transform_Skills.png)
-
+![Transform Salary Data](./images/Transform_Salary_Data.png) 
+## Transform Skills Data
+![Transform Skills Data](./images/Transform_Skills_Data.png) 
+ 
 ---
 
 ### 🔗 Load
@@ -92,9 +92,9 @@ Loading the tables into the Data Model allowed me to create relationships betwee
 
 ### 📸 Load Phase
 
-![Loaded Salary Table](images/PowerQuery_Load_Salary.png)
+![Loaded Salary Table](./images/Loaded_Salary_Table.png)
 
-![Loaded Skills Table](images/PowerQuery_Load_Skills.png)
+![Loaded Skills Table](images/Loaded_Skills_Table.png)
 
 --
 
@@ -103,7 +103,6 @@ Loading the tables into the Data Model allowed me to create relationships betwee
 Data preparation is one of the most important stages of any analytics project.
 
 Using Power Query allowed me to automate the Extract, Transform, and Load (ETL) process, improve data quality, and create a structured foundation for all subsequent analysis. By building clean datasets and loading them into the Data Model, I was able to perform more accurate analysis and develop interactive dashboards that answer key questions about the data job market.
-
 
 
 
@@ -151,7 +150,7 @@ To calculate skill demand, I created a measure that calculates skill likelihood 
 
 Professionals entering the data industry should prioritize SQL, Excel, Python, and visualization tools because these skills consistently appear across a large percentage of job opportunities.
 
----
+--
 
 # 2️⃣ How do salaries vary across different data roles?
 
@@ -238,7 +237,7 @@ allowing both demand and compensation to be evaluated simultaneously.
 
 While foundational skills remain essential, specialized technologies such as Spark and cloud platforms can significantly increase earning potential.
 
----
+--
 
 # 4️⃣ How do salary trends differ across countries and job titles?
 
@@ -267,7 +266,7 @@ This allows users to dynamically filter the dashboard and compare salary pattern
 
 Interactive filtering helps uncover market-specific trends that can support career planning and salary negotiations.
 
----
+--
 
 # Conclusion
 
@@ -280,5 +279,12 @@ The analysis revealed that:
 * Python remains one of the most versatile technical skills.
 * Senior and specialized roles command the highest salaries.
 * Technologies such as Spark and AWS are associated with strong compensation potential.
+This project reflects a practical exploration of the data science job market, built entirely through Excel-based data analysis techniques. By working with real-world job posting data, I examined how job roles, locations, salary structures, and technical skill requirements interact to shape hiring trends in the industry.
 
-This project demonstrates practical experience with data cleaning, data modeling, DAX calculations, dashboard development, and business-focused data analysis using Excel.
+Using Power Query for data transformation, PivotTables for aggregation, DAX for calculated insights, and visual dashboards for interpretation, I converted raw, unstructured data into clear, actionable intelligence. The analysis consistently highlighted a strong correlation between higher salary bands and proficiency in core technical skills such as Python, SQL, and cloud technologies.
+
+Beyond visualization, this project demonstrates an end-to-end analytical workflow—from data cleaning to insight generation mirroring real world business analysis processes. It reinforces the importance of structured data handling and critical thinking in deriving meaningful conclusions from complex datasets.
+
+Ultimately, this work serves as a foundation for understanding how data-driven decisions are made in the tech job market and showcases my ability to extract value from data to support career and business insights.
+
+
