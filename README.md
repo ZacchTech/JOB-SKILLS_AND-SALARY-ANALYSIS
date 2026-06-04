@@ -54,11 +54,11 @@ To support the analysis, I created two separate queries:
 
 ### 📸 Extract Phase
 
-![Data Jobs Salary Query](./images/data_jobs_skills_Query.png)
+![Data Jobs Salary Query](./images/Data_Jobs_Skills_Query.png)
 
-![Salary Query](./images/data_jobs_salary_Query.png) 
+![Salary Query](./images/data_jobs_salary_Query.png)
 
----
+--
 
 ### 🔄 Transform
 
@@ -82,7 +82,7 @@ These transformations ensured that the data was clean, consistent, and ready for
 ## Transform Skills Data
 ![Transform Skills Data](./images/Transform_Skills_Data.png) 
  
----
+--
 
 ### 🔗 Load
 
@@ -96,7 +96,6 @@ Loading the tables into the Data Model allowed me to create relationships betwee
 
 ![Loaded Skills Table](images/Loaded_Skills_Table.png)
 
---
 
 ### 🤔 So What
 
